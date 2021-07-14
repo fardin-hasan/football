@@ -41,6 +41,12 @@ body {
 
 }
 
+.login a:hover {
+    color: rgb(3, 10, 1);
+    background-image: linear-gradient(rgba(233, 129, 60, 0.815), rgb(241, 131, 131));
+    transition: 1s ease;
+}
+
 
 
 .login i {
@@ -79,6 +85,7 @@ body {
 .live a:hover {
     color: rgb(3, 10, 1);
     background-image: linear-gradient(rgba(233, 129, 60, 0.815), rgb(241, 131, 131));
+    transition: 1s ease;
 }
 
 .live i {
@@ -90,6 +97,13 @@ body {
 
     width: 486px;
     height: 408px;
+
+}
+
+.image img:hover {
+    width: 586px;
+    height: 508px;
+    transition: 1s ease;
 
 }
 
@@ -176,6 +190,12 @@ p {
     background-color: #E02C6D;
 }
 
+.highlight-info a:hover {
+    color: rgb(3, 10, 1);
+    background-image: linear-gradient(rgba(233, 129, 60, 0.815), rgb(241, 131, 131));
+    transition: 1s ease;
+}
+
 .info-title {
     line-height: 15px;
     font-weight: 700;
@@ -185,6 +205,63 @@ p {
 .highlight-image img {
     width: 537px;
     height: 397px;
+
+}
+
+/* gallery */
+.gallery-container {
+    margin-top: 50px;
+}
+
+.gallery-container h1 {
+    font-weight: 700;
+    font-size: 48px;
+    padding-left: 10px;
+}
+
+.photo-album1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+
+}
+
+.photo-row1 img {
+    width: 440px;
+    height: 300px;
+}
+
+.photo-album2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+.photo-row2 img {
+    width: 260px;
+    height: 200px;
+}
+
+/* tournament summary */
+
+.summary-container {
+    margin-top: 150px;
+}
+
+.summary-container h1 {
+    font-weight: 700;
+    font-size: 48px;
+    padding-left: 10px;
+}
+
+.summary {
+    display: flex;
+
+}
+
+.moments img {
+    width: 320px;
+    height: 266px;
 
 }
 
@@ -204,7 +281,7 @@ p {
     height: 110px;
 }
 
-.icons {}
+
 
 .icons i {
     color: #969BAB;
