@@ -7,7 +7,7 @@ body {
 
 .head-container {
     background-color: #2D25A0;
-    height: 677px;
+    height: 657px;
 }
 
 /*  Navbar styles */
@@ -41,6 +41,8 @@ body {
 
 }
 
+
+
 .login i {
     margin-right: 12px;
 }
@@ -59,7 +61,7 @@ body {
 
 .title h1 {
 
-    font-size: 34px;
+    font-size: 56px;
     line-height: 20px;
     font-weight: 700;
     color: white;
@@ -74,6 +76,11 @@ body {
     background-color: #E02C6D;
 }
 
+.live a:hover {
+    color: rgb(3, 10, 1);
+    background-image: linear-gradient(rgba(233, 129, 60, 0.815), rgb(241, 131, 131));
+}
+
 .live i {
     padding-left: 8px;
 }
@@ -81,8 +88,8 @@ body {
 .image img {
     margin-left: 102px;
 
-    width: 556.01px;
-    height: 438px;
+    width: 486px;
+    height: 408px;
 
 }
 
@@ -110,8 +117,8 @@ body {
 .solo-player {
     border: 1px solid rgba(0, 0, 0, 0.15);
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-    width: 260px;
-    height: 420px;
+    width: 350px;
+    height: 490px;
 
 }
 
@@ -122,6 +129,7 @@ p {
 }
 
 .solo-player h1 {
+    margin-top: -10px;
     font-weight: 700;
 }
 
@@ -134,8 +142,8 @@ p {
 
 .solo-player img {
     padding: 15px;
-    width: 230px;
-    height: 196px;
+    width: 320px;
+    height: 266px;
 
 }
 
@@ -143,12 +151,13 @@ p {
 .highlight {
     display: flex;
     margin-top: 150px;
-    margin-right: 116px;
+    margin-right: 90px;
     margin-left: 10%;
 }
 
 .highlight-info {
-    margin-right: 66px;
+
+    margin-right: 2px;
     margin-top: 50px;
 }
 
@@ -157,6 +166,7 @@ p {
     padding-bottom: 15px;
     color: #6C6C6C;
     font-size: 15px;
+    width: 70%;
 }
 
 .highlight-info a {
@@ -169,11 +179,46 @@ p {
 .info-title {
     line-height: 15px;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 34px;
 }
 
 .highlight-image img {
-    width: 437px;
-    height: 327px;
+    width: 537px;
+    height: 397px;
 
+}
+
+/* Footer */
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 60px
+}
+
+.logos img {
+    width: 480px;
+    height: 110px;
+}
+
+.icons {}
+
+.icons i {
+    color: #969BAB;
+    margin: 0 5px;
+    padding: 10px;
+    background-color: rgb(230, 225, 225);
+    border: 1px solid rgb(230, 225, 225);
+    border-radius: 50%;
+
+
+
+
+}
+
+.copyright {
+    margin-top: 20px;
 }
